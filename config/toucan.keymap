@@ -22,7 +22,7 @@
 
         base {
             bindings = <
-&kp GRAVE  &mt ESCAPE Q  &kp W  &kp D  &kp F  &kp K  &kp J  &kp U  &kp R  &kp L  &kp SEMI  &kp BSLH  &kp LCTRL  &mt LEFT_SHIFT A  &mt LEFT_ALT S  &mt LEFT_WIN E  &mt LCTRL T  &kp G  &kp Y  &mt RCTRL N  &mt RIGHT_WIN I  &mt RIGHT_ALT O  &mt RIGHT_SHIFT H  &kp SQT  &kp EQUAL  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp P  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp MINUS  &lt 3 A  &lt 2 TAB  &lt 1 SPACE  &kp BSPC  &kp RET  &lt 3 DELETE
+&kp GRAVE  &mt ESCAPE Q  &kp W  &kp D  &kp F  &kp K  &kp J  &kp U  &kp R  &kp L  &kp SEMI  &kp BSLH  &kp LCTRL  &mt LEFT_SHIFT A  &mt LEFT_ALT S  &mt LEFT_WIN E  &mt LCTRL T  &kp G  &kp Y  &mt RCTRL N  &mt RIGHT_WIN I  &mt RIGHT_ALT O  &mt RIGHT_SHIFT H  &kp SQT  &kp EQUAL  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp P  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp MINUS  &lt 3 DELETE  &lt 2 TAB  &lt 1 SPACE  &kp BSPC  &kp RET  &caps_word
             >;
         };
 
