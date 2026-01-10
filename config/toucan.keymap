@@ -17,6 +17,8 @@
             bindings = <
 &kp GRAVE  &mt ESCAPE Q  &kp W  &kp D  &kp F  &kp K  &kp J  &kp U  &kp R  &kp L  &kp SEMI  &kp BACKSLASH  &sl 1  &mt LEFT_SHIFT A  &mt LEFT_ALT S  &mt LEFT_WIN E  &mt LCTRL T  &kp G  &kp Y  &mt RCTRL N  &mt RIGHT_WIN I  &mt RIGHT_ALT O  &mt RIGHT_SHIFT H  &kp SQT  &caps_word  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp P  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp UNDER  &lt 3 DELETE  &kp TAB  &lt 2 SPACE  &kp BSPC  &kp RET  &trans
             >;
+
+            label = "base";
         };
 
         sym {
@@ -26,10 +28,12 @@
             >;
         };
 
-        quick-access {
+        quik {
             bindings = <
 &kp LA(TAB)  &kp LC(S)  &kp PAGE_DOWN  &kp UP_ARROW  &kp PG_UP  &kp ESCAPE  &kp HOME  &kp END  &kp LC(P)  &kp LS(LC(P))  &trans  &to 4  &kp LC(GRAVE)  &kp LC(SLASH)  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LC(D)  &trans  &kp RCTRL  &kp LEFT_GUI  &kp RIGHT_ALT  &kp RSHIFT  &sl 5  &kp LS(LG(S))  &kp LC(A)  &kp LC(X)  &mt LC(LS(C)) LC(C)  &mt LS(LC(V)) LC(V)  &mt LC(Y) LC(Z)  &kp LC(F)  &kp LC(H)  &kp F2  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
+
+            label = "quik";
         };
 
         nums {
