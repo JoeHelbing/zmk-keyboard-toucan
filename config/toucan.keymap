@@ -10,6 +10,7 @@
 #define NUMS 3
 #define GAME 4
 #define NAV  5
+#define WORK 6
 
 / {
     behaviors {
@@ -46,7 +47,7 @@
         quik {
             display-name = "QUIK";
             bindings = <
-&kp LA(TAB)  &kp LC(S)  &kp PAGE_DOWN  &kp UP_ARROW  &kp PG_UP  &kp ESCAPE  &kp HOME  &kp END  &kp LC(P)  &kp LS(LC(P))  &trans  &to GAME  &kp LC(GRAVE)  &kp LC(SLASH)  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LC(D)  &trans  &kp RCTRL  &kp LEFT_GUI  &kp RIGHT_ALT  &kp RSHIFT  &sl NAV  &kp LS(LG(S))  &kp LC(A)  &kp LC(X)  &mt LC(LS(C)) LC(C)  &mt LS(LC(V)) LC(V)  &mt LC(Y) LC(Z)  &kp LC(F)  &kp LC(H)  &kp F2  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp RCLK  &trans
+&kp LA(TAB)  &kp LC(S)  &kp PAGE_DOWN  &kp UP_ARROW  &kp PG_UP  &kp ESCAPE  &kp HOME  &kp END  &kp LC(P)  &kp LS(LC(P))  &trans  &to GAME  &kp LC(GRAVE)  &kp LC(SLASH)  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LC(D)  &trans  &kp RCTRL  &kp LEFT_GUI  &kp RIGHT_ALT  &kp RSHIFT  &sl NAV  &kp LS(LG(S))  &kp LC(A)  &kp LC(X)  &mt LC(LS(C)) LC(C)  &mt LS(LC(V)) LC(V)  &mt LC(Y) LC(Z)  &kp LC(F)  &kp LC(H)  &kp F2  &trans  &trans  &tog WORK  &trans  &trans  &trans  &trans  &mkp RCLK  &trans
             >;
         };
 
@@ -68,6 +69,13 @@
             display-name = "NAV";
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &studio_unlock  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        work {
+            display-name = "WORK";
+            bindings = <
+&kp GRAVE  &mt ESCAPE Q  &kp D  &kp R  &kp W  &kp B  &kp J  &kp F  &kp U  &kp P  &kp SEMI  &kp BACKSLASH  &sl SYM  &hm LEFT_SHIFT A  &hm LEFT_ALT S  &hm LEFT_WIN H  &hm LCTRL T  &kp G  &kp Y  &hm RCTRL N  &hm RIGHT_WIN E  &hm RIGHT_ALT O  &hm RIGHT_SHIFT I  &kp SQT  &caps_word  &kp Z  &kp X  &kp M  &kp C  &kp V  &kp K  &kp L  &kp COMMA  &kp DOT  &kp FSLH  &kp MINUS  &lt NUMS DELETE  &kp TAB  &lt QUIK SPACE  &kp BSPC  &kp RET  &trans
             >;
         };
     };
