@@ -5,12 +5,12 @@
 #include <dt-bindings/zmk/pointing.h>
 
 #define BASE 0
-#define SYM  1
-#define QUIK 2
-#define NUMS 3
-#define GAME 4
-#define NAV  5
-#define WORK 6
+#define WORK 1
+#define SYM  2
+#define QUIK 3
+#define NUMS 4
+#define GAME 5
+#define NAV  6
 
 / {
     behaviors {
@@ -34,6 +34,13 @@
             display-name = "BASE";
             bindings = <
 &kp GRAVE  &mt ESCAPE Q  &kp W  &kp D  &kp F  &kp K  &kp J  &kp U  &kp R  &kp L  &kp SEMI  &kp BACKSLASH  &sl SYM  &hm LEFT_SHIFT A  &hm LEFT_ALT S  &hm LEFT_WIN E  &hm LCTRL T  &kp G  &kp Y  &hm RCTRL N  &hm RIGHT_WIN I  &hm RIGHT_ALT O  &hm RIGHT_SHIFT H  &kp SQT  &caps_word  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp P  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp MINUS  &lt NUMS DELETE  &kp TAB  &lt QUIK SPACE  &kp BSPC  &kp RET  &trans
+            >;
+        };
+
+        work {
+            display-name = "WORK";
+            bindings = <
+&kp GRAVE  &mt ESCAPE Q  &kp D  &kp R  &kp W  &kp B  &kp J  &kp F  &kp U  &kp P  &kp SEMI  &kp BACKSLASH  &sl SYM  &hm LEFT_SHIFT A  &hm LEFT_ALT S  &hm LEFT_WIN H  &hm LCTRL T  &kp G  &kp Y  &hm RCTRL N  &hm RIGHT_WIN E  &hm RIGHT_ALT O  &hm RIGHT_SHIFT I  &kp SQT  &caps_word  &kp Z  &kp X  &kp M  &kp C  &kp V  &kp K  &kp L  &kp COMMA  &kp DOT  &kp FSLH  &kp MINUS  &lt NUMS DELETE  &kp TAB  &lt QUIK SPACE  &kp BSPC  &kp RET  &trans
             >;
         };
 
@@ -72,11 +79,5 @@
             >;
         };
 
-        work {
-            display-name = "WORK";
-            bindings = <
-&kp GRAVE  &mt ESCAPE Q  &kp D  &kp R  &kp W  &kp B  &kp J  &kp F  &kp U  &kp P  &kp SEMI  &kp BACKSLASH  &sl SYM  &hm LEFT_SHIFT A  &hm LEFT_ALT S  &hm LEFT_WIN H  &hm LCTRL T  &kp G  &kp Y  &hm RCTRL N  &hm RIGHT_WIN E  &hm RIGHT_ALT O  &hm RIGHT_SHIFT I  &kp SQT  &caps_word  &kp Z  &kp X  &kp M  &kp C  &kp V  &kp K  &kp L  &kp COMMA  &kp DOT  &kp FSLH  &kp MINUS  &lt NUMS DELETE  &kp TAB  &lt QUIK SPACE  &kp BSPC  &kp RET  &trans
-            >;
-        };
     };
 };
